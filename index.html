@@ -5,145 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello, I am Carolyn</title>
   <style>
-    body { 
-      font-family: system-ui, sans-serif; 
-      margin: 0; 
-      padding: 2rem; 
-      text-align: center; 
-      background: #001f3f;           /* Deep navy blue background */
-      color: #ffffff;                /* White text for contrast */
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+      background: #001f3f;
+      color: #ffffff;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
-    h1 { 
-      color: #a5d8ff;                /* Light blue accent for heading */
-      margin-bottom: 2rem; 
-      font-size: 3.2rem; 
-    }
-    p { 
-      font-size: 1.3rem; 
-      max-width: 700px; 
-      margin: 1.2rem auto; 
-      line-height: 1.6; 
-      color: #e6f0ff;                /* Very light blue-white for body text */
-    }
-    .highlight {
-      color: #4dabf7;
-      font-weight: bold;
-    }
-    .apps-section {
-      margin: 3rem auto 0;
-      max-width: 700px;
-    }
-    .apps-title {
-      font-size: 0.85rem;
-      color: #4dabf7;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      margin-bottom: 1.25rem;
-      font-weight: 600;
-    }
-    .apps-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.75rem;
-      text-align: left;
-    }
-    .app-card {
-      display: flex;
-      flex-direction: column;
-      gap: 0.25rem;
-      padding: 1rem 1.1rem;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(74,171,247,0.2);
-      border-radius: 12px;
-      text-decoration: none;
-      color: #ffffff;
-      transition: all 0.2s ease;
-    }
-    .app-card:hover {
-      border-color: #4dabf7;
-      background: rgba(74,171,247,0.1);
-      transform: translateY(-2px);
-      box-shadow: 0 4px 16px rgba(74,171,247,0.2);
-    }
-    .app-card .app-name {
-      color: #4dabf7;
-      font-weight: 600;
-      font-size: 0.95rem;
-    }
-    .app-card .app-desc {
-      color: #e6f0ff;
-      font-size: 0.82rem;
-      line-height: 1.4;
-    }
-    .app-card .app-framework {
-      color: #a5d8ff;
-      font-size: 0.72rem;
-      margin-top: 0.15rem;
-      opacity: 0.7;
-    }
-    .app-card.full-width {
-      grid-column: span 2;
-    }
-    @media (max-width: 540px) {
-      .apps-grid { grid-template-columns: 1fr; }
-      .app-card.full-width { grid-column: span 1; }
-    }
   </style>
 </head>
 <body>
-  <h1>Hello, I am Carolyn</h1>
-  <p>Learning to build ai apps. My journey started on Feb 20, 2026.</p>
-
-  <div class="apps-section">
-    <div class="apps-title">Apps I've built</div>
-    <div class="apps-grid">
-      <a href="https://scour-squad.iamcarolyn.ai" target="_blank" class="app-card">
-        <span>🔍</span>
-        <span class="app-name">Scour Squad</span>
-        <span class="app-desc">Deep research on any topic using a team of AI agents</span>
-        <span class="app-framework">Built with AutoGen</span>
-      </a>
-      <a href="https://the-pit.iamcarolyn.ai" target="_blank" class="app-card">
-        <span>⚖️</span>
-        <span class="app-name">The Pit</span>
-        <span class="app-desc">Pitch your idea and get a brutal honest verdict</span>
-        <span class="app-framework">Built with CrewAI</span>
-      </a>
-      <a href="https://hire-wire.iamcarolyn.ai" target="_blank" class="app-card">
-        <span>💼</span>
-        <span class="app-name">Hire Wire</span>
-        <span class="app-desc">Match your resume to any job description instantly</span>
-        <span class="app-framework">Built with HuggingFace</span>
-      </a>
-      <a href="https://homescout.iamcarolyn.ai" target="_blank" class="app-card">
-        <span>🏠</span>
-        <span class="app-name">HomeScout</span>
-        <span class="app-desc">Research any neighborhood before you move</span>
-        <span class="app-framework">Built with CrewAI</span>
-      </a>
-      <a href="https://debateme.iamcarolyn.ai" target="_blank" class="app-card">
-        <span>⚔️</span>
-        <span class="app-name">Debate Me</span>
-        <span class="app-desc">Submit any claim. Sam argues for it, Fred argues against it, Jack delivers the verdict.</span>
-        <span class="app-framework">Built with Google ADK SequentialAgent</span>
-      </a>
-      <a href="https://red-team-my-idea.iamcarolyn.ai" target="_blank" class="app-card">
-        <span>🎯</span>
-        <span class="app-name">Red Team My Idea</span>
-        <span class="app-desc">Submit any idea. The Analyst deconstructs it into core assumptions. The Attacker stress-tests every assumption for risks and blind spots.</span>
-        <span class="app-framework">Built with Pydantic AI</span>
-      </a>
-      <a href="https://the-brief.iamcarolyn.ai" target="_blank" class="app-card full-width">
-        <span>📰</span>
-        <span class="app-name">The Brief</span>
-        <span class="app-desc">Drop a topic, get a structured research report with citations</span>
-        <span class="app-framework">Built with LangGraph</span>
-      </a>
-    </div>
-  </div>
 </body>
 </html>
